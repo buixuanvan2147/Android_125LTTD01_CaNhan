@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_welcome"
+    android:padding="@dimen/sp_24">
+
+    <LinearLayout
+        android:id="@+id/khoi_noi_dung_tao_tai_khoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card_welcome"
+        android:padding="@dimen/sp_24">
+
+        <!-- Tiêu đề -->
+        <TextView
+            android:id="@+id/tv_tieu_de_tao_tai_khoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạo tài khoản mới"
+            android:textColor="@color/cl_text_primary"
+            android:textStyle="bold"
+            android:textSize="@dimen/fs_title"
+            android:gravity="center"/>
+
+        <!-- Mô tả -->
+        <TextView
+            android:id="@+id/tv_mo_ta_tao_tai_khoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sp_8"
+            android:text="Vui lòng nhập đầy đủ thông tin bên dưới"
+            android:textColor="@color/cl_text_secondary"
+            android:textSize="@dimen/fs_body"
+            android:gravity="center"/>
+
+        <!-- Ô nhập Họ và tên -->
+        <EditText
+            android:id="@+id/edt_ho_va_ten"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/sp_24"
+            android:hint="Họ và tên"
+            android:textColor="@color/cl_text_primary"
+            android:textSize="@dimen/fs_body"
+            android:background="@drawable/bg_edittext"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"/>
+
+        <!-- Ô nhập Email -->
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/sp_12"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/cl_text_primary"
+            android:textSize="@dimen/fs_body"
+            android:background="@drawable/bg_edittext"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"/>
+
+        <!-- Ô nhập Số điện thoại -->
+        <EditText
+            android:id="@+id/edt_so_dien_thoai"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/sp_12"
+            android:hint="Số điện thoại"
+            android:inputType="phone"
+            android:textColor="@color/cl_text_primary"
+            android:textSize="@dimen/fs_body"
+            android:background="@drawable/bg_edittext"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"/>
+
+        <!-- Ô nhập Mật khẩu -->
+        <EditText
+            android:id="@+id/edt_mat_khau"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/sp_12"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:textColor="@color/cl_text_primary"
+            android:textSize="@dimen/fs_body"
+            android:background="@drawable/bg_edittext"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"/>
+
+        <!-- Ô nhập Xác nhận mật khẩu -->
+        <EditText
+            android:id="@+id/edt_xac_nhan_mat_khau"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/sp_12"
+            android:hint="Xác nhận mật khẩu"
+            android:inputType="textPassword"
+            android:textColor="@color/cl_text_primary"
+            android:textSize="@dimen/fs_body"
+            android:background="@drawable/bg_edittext"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"/>
+
+        <!-- Nút Đăng ký -->
+        <Button
+            android:id="@+id/btn_dang_ky"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginTop="@dimen/sp_24"
+            android:text="Đăng ký"
+            android:textColor="@color/cl_card"
+            android:textSize="@dimen/fs_button"
+            android:background="@drawable/bg_btn_primary"
+            android:backgroundTint="@null"
+            app:backgroundTint="@null"/>
+
+        <!-- Link quay lại Đăng nhập -->
+        <TextView
+            android:id="@+id/tv_quay_lai_dang_nhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sp_16"
+            android:layout_gravity="center"
+            android:text="Quay lại Đăng nhập"
+            android:textColor="@color/cl_primary"
+            android:textSize="@dimen/fs_body"/>
+    </LinearLayout>
+</ScrollView>
