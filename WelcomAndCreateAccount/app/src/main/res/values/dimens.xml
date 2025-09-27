@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="space_8">8dp</dimen>
-    <dimen name="space_12">12dp</dimen>
-    <dimen name="space_16">16dp</dimen>
-    <dimen name="space_24">24dp</dimen>
-    <dimen name="radius_16">16dp</dimen>
+    <!-- Khoảng cách -->
+    <dimen name="sp_8">8dp</dimen>
+    <dimen name="sp_12">12dp</dimen>
+    <dimen name="sp_16">16dp</dimen>
+    <dimen name="sp_24">24dp</dimen>
+    <dimen name="sp_32">32dp</dimen>
 
-    <!-- Font size: >= 16sp để dễ đọc -->
-    <dimen name="text_title">24sp</dimen>
-    <dimen name="text_body">16sp</dimen>
-    <dimen name="text_button">16sp</dimen>
+    <!-- Kích thước phần tử -->
+    <dimen name="logo_size">96dp</dimen>
+    <dimen name="btn_height">48dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="btn_radius">12dp</dimen>
+    <dimen name="decor_circle">18dp</dimen>
+
+    <!-- Cỡ chữ: >=16sp để dễ đọc -->
+    <dimen name="fs_title">24sp</dimen>
+    <dimen name="fs_body">16sp</dimen>
+    <dimen name="fs_button">16sp</dimen>
+    <dimen name="fs_small">14sp</dimen>
 </resources>

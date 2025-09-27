@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3B82F6</color>     <!-- xanh lam chủ đạo -->
-    <color name="colorOnPrimary">#FFFFFF</color>
-    <color name="colorSecondary">#22C55E</color>  <!-- xanh lá nhấn -->
-    <color name="colorBg">#F7F7F9</color>         <!-- nền xám rất nhạt -->
-    <color name="colorTextPrimary">#111827</color>
-    <color name="colorTextSecondary">#6B7280</color>
-    <color name="colorOutline">#E5E7EB</color>
+    <!-- Bảng màu sang, nhẹ nhàng -->
+    <color name="cl_bg">#F5F6FA</color>                <!-- nền tổng thể -->
+    <color name="cl_card">#FFFFFFFF</color>            <!-- nền khối nội dung -->
+    <color name="cl_stroke">#E5E7EB</color>            <!-- viền nhạt -->
+    <color name="cl_text_primary">#111827</color>      <!-- chữ chính -->
+    <color name="cl_text_secondary">#6B7280</color>    <!-- chữ phụ -->
+    <color name="cl_primary">#2D5BFF</color>           <!-- xanh chủ đạo -->
+    <color name="cl_primary_pressed">#2448C6</color>   <!-- xanh khi nhấn -->
+    <color name="cl_accent">#FFB020</color>            <!-- điểm nhấn nhỏ -->
+    <color name="cl_transparent">#00FFFFFF</color>
 </resources>
